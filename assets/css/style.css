@@ -3,3 +3,10 @@
     background-size: cover;
     
 }
+
+.row{
+    padding: 10px;
+}
+.card{
+    width: 14rem;
+}

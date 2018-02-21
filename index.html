@@ -14,25 +14,35 @@
 
 <body>
     <div class="container">
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-lg-12 jumbotron">
                 <h3>Star War RPG</h3>
             </div>
-        </div>
-
-        <div class="row" id="allCharacters" data-list="starWarCharacters">
-          
+        </div> -->
+        <div class="row" id="enemies" data-list="enemies">
 
         </div>
         <div class="row" id="yourCharacter" data-list="player">
 
         </div>
 
-        <div class="row" id="enemies" data-list="enemies">
+        <div class="row" id="allCharacters" data-list="starWarCharacters">
+
 
         </div>
         <div class="row" id="defender" data-list="defender">
 
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <button class="btn btn-danger" value="attack">
+                    <h3 class="text-center">Attack</h3>
+                </button>
+                <button class="btn btn-primary" value="restart">
+                    <h3 class="text-center">Restart</h3>
+                </button>
+                <div id="result" class="row"></div>
+            </div>
         </div>
 
     </div>
